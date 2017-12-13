@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+  </style>
+
+  <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/ColorPrimary</item>
+    <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+    <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
+  </style>
+
+  <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+    <item name="spinBars">true</item>
+    <item name="color">@android:color/white</item>
+  </style>
+</resources>

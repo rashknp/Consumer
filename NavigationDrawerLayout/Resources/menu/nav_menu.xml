@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+      android:icon="@drawable/catalog"
+      android:id="@+id/product_catalogue"
+      android:title="@string/product_catalogue" />
+    <item
+      android:icon="@drawable/carticash"
+    android:id="@+id/bit_cash"
+    android:title="@string/bit_cash"/>
+    <item
+      android:icon="@drawable/social"
+      android:id="@+id/social_media"
+      android:title="@string/social_media" />
+    <item
+      android:icon="@drawable/tellus"
+      android:id="@+id/tell_friend"
+      android:title="@string/tell_friend" />
+    <item
+      android:icon="@drawable/contactus"
+      android:id="@+id/contact_us"
+      android:title="@string/contact_us" />
+    <item
+      android:icon="@drawable/termcondition"
+      android:id="@+id/terms"
+      android:title="@string/terms" />
+
+  </group>
+
+</menu>

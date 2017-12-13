@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_marginTop="50dp" 
+              android:background="@drawable/dashboardbg">
+  <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size20"
+        android:layout_gravity="center"
+        android:background="@drawable/mlogo"
+       android:gravity="center" 
+        />
+
+  <TextView
+      android:id="@+id/tvEmail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/size20"
+       android:layout_marginRight="@dimen/size20"
+       android:layout_marginLeft="@dimen/size20"
+       android:drawableLeft="@drawable/email"
+       android:drawableRight="@drawable/rightarrow"
+       android:text="Send an Email"
+       android:gravity="fill"
+       android:textSize="@dimen/sizesp15"
+       android:paddingLeft="@dimen/size20"
+       android:paddingRight="@dimen/size10"
+       android:drawablePadding="@dimen/size10"
+
+
+       android:background="@drawable/etbox"
+       />
+  <TextView
+      android:id="@+id/tvCallUs"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/size20"
+      android:layout_marginRight="@dimen/size20"
+      android:layout_marginLeft="@dimen/size20"
+      android:drawableLeft="@drawable/callus"
+      android:drawableRight="@drawable/rightarrow"
+      android:gravity="fill"
+      android:text="Call Us"
+      android:textSize="@dimen/sizesp15"
+      android:drawablePadding="@dimen/size10"
+      android:paddingLeft="@dimen/size20"
+      android:paddingRight="@dimen/size10"
+      android:background="@drawable/etbox"
+        />
+  </LinearLayout>

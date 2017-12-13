@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">ConsumerApp</string>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="product_catalogue">Product Catalogue</string>
+  <string name="bit_cash">Bitcash</string>
+  <string name="social_media">Social Media</string>
+  <string name="tell_friend">Tell a Friend</string>
+  <string name="contact_us">Contact Us</string>
+  <string name="terms">Terms Conditions</string>
+  <string name="search_product">Search Product</string>
+  <string name="Login">Login</string>
+  <string name="Product_catalogue">Product Catalogue</string>
+  <string name="Promotions">Promotions</string>
+  <string name="Contact_us">Contact Us</string>
+  <string name="Bit_cash">Bitcash</string>
+  <string name="Website">Website</string>
+</resources>
