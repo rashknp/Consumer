@@ -20,7 +20,7 @@ using System.IO;
 namespace NavigationDrawerLayout.src.Fragments
 {
 
-    public class HomeFragment : Fragment,IBackButtonListener
+    public class HomeFragment : Fragment, IBackButtonListener
     {
         TextView login, product_catalog, promotion, contact, bitcash, website;
         public static int[] mThumbIds = {
@@ -69,22 +69,40 @@ namespace NavigationDrawerLayout.src.Fragments
             contact = view.FindViewById<TextView>(Resource.Id.Contact_us);
             bitcash = view.FindViewById<TextView>(Resource.Id.Bit_cash);
             website = view.FindViewById<TextView>(Resource.Id.Website);
-         
-            layout = view.FindViewById<LinearLayout>(Resource.Id.layout);
-            // textView.Text = "Fragment1";
-            TaskScheduler uiContext = TaskScheduler.FromCurrentSynchronizationContext();
-            Console.WriteLine("timer started");
-            Task.Delay(1000).ContinueWith((task) =>
-            {
-                //Do UI stuff
-                for (int i = 0; i < mThumbIds.Length; i++)
-                {
-                    layout.SetBackgroundResource(mThumbIds[i]);
-                    Task.Delay(1000);
-                }
-                Console.WriteLine("timer stopped");
-            }, uiContext);
 
+            layout = view.FindViewById<LinearLayout>(Resource.Id.layout);
+
+
+            // textView.Text = "Fragment1";
+
+            //TaskScheduler uiContext = TaskScheduler.FromCurrentSynchronizationContext();
+            //Console.WriteLine("timer started");
+            //Task.Delay(1000).ContinueWith((task) =>
+            //{
+            //    //Do UI stuff
+            //    for (int i = 0; i < mThumbIds.Length; i++)
+            //    {
+            //        layout.SetBackgroundResource(mThumbIds[i]);
+            //        Task.Delay(1000);
+            //    }
+            //    Console.WriteLine("timer stopped");
+            //}, uiContext);
+            ImageChanger(mThumbIds);
+            //Handler h = new Handler();
+            //Action myAction = () =>
+            //{
+            //    for (int i = 0; i < mThumbIds.Length; i++)
+            //    {
+            //        layout.SetBackgroundResource(mThumbIds[i]);
+
+            //        Task.Delay(1000);
+            //    }
+            //};
+
+            //h.PostDelayed(myAction, 1000);
+            //
+
+            //
             //async Task Run()
             //{
             //    Console.WriteLine("timer started");
@@ -108,7 +126,7 @@ namespace NavigationDrawerLayout.src.Fragments
 
             contact.Click += (o, e) =>
             {
-                
+
                 FragmentTransaction transcation1 = FragmentManager.BeginTransaction();
                 src.Fragments.ContactUsFragment contactUsFragment = new src.Fragments.ContactUsFragment();
                 transcation1.Replace(Resource.Id.container, contactUsFragment, "Contact");
@@ -118,14 +136,14 @@ namespace NavigationDrawerLayout.src.Fragments
             };
             website.Click += (o, e) =>
             {
-                FragmentManager.PopBackStackImmediate();
+                //FragmentManager.PopBackStackImmediate();
                 var uri = Android.Net.Uri.Parse("http://www.masafi.com/");
                 var intent = new Intent(Intent.ActionView, uri);
                 StartActivity(intent);
             };
             bitcash.Click += (o, e) =>
             {
-                
+
                 FragmentTransaction transcation1 = FragmentManager.BeginTransaction();
                 src.Fragments.BitCashFragment bitCashFragment = new src.Fragments.BitCashFragment();
                 transcation1.Replace(Resource.Id.container, bitCashFragment, "Bit");
@@ -163,10 +181,39 @@ namespace NavigationDrawerLayout.src.Fragments
 
         }
 
+        int i = 0;
+        public async Task ImageChanger(int[] mThumbIds)
+        {
+            //
+
+            //
+            await Task.Run(async () =>
+            {
+                if(i< mThumbIds.Length)
+                {
+                    layout.SetBackgroundResource(mThumbIds[i]);
+                    i++;
+                    Android.Util.Log.Debug("test time"+i, "test");
+
+                }
+
+                else
+                {
+                    i = 0;
+                    layout.SetBackgroundResource(mThumbIds[i]);
+                    Android.Util.Log.Debug("test time" + i, "test");
+                }
+                await Task.Delay(10000);
+                ImageChanger(mThumbIds);
+            });
+        }
+
+
         public void OnBackPressed()
         {
             FragmentManager fm = FragmentManager;
             fm.PopBackStack();
         }
     }
+
 }

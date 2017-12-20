@@ -35,6 +35,12 @@ namespace NavigationDrawerLayout.src.Fragments
             wvAbout.SetWebViewClient(new WebViewClient());
           // wvAbout.SetBackgroundResource(Resource.Drawable.listbox);
             wvAbout.SetBackgroundColor(new Color(0x00000000));
+            // wvAbout.Settings.SetTextSize(WebSettings.TextSize.Smallest);
+            //wvAbout.Settings.DomStorageEnabled = true;
+            //wvAbout.Settings.JavaScriptEnabled=true;
+            //wvAbout.Settings.BuiltInZoomControls=false;
+            wvAbout.Settings.SetTextSize(WebSettings.TextSize.Normal);
+            //wvAbout.Settings.SetLayoutAlgorithm(WebSettings.LayoutAlgorithm.SingleColumn);
             wvAbout.LoadUrl("file:///android_asset/Bitcash.html");
             return view;
 

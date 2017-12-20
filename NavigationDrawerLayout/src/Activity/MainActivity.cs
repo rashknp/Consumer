@@ -94,28 +94,28 @@ namespace NavigationDrawerLayout
                         transcation4.Replace(Resource.Id.container, socialMediaFragment, "Social");
                         transcation4.AddToBackStack("Social");
                         transcation4.Commit();
-                        //Toast.MakeText(Application.Context, "Shop selected", ToastLength.Long).Show();
-
+                      
                         break;
                     case Resource.Id.tell_friend:
                         drawerLayout.CloseDrawers();
-                        //FragmentTransaction transcation3 = FragmentManager.BeginTransaction();
-                        //src.Fragments.Fragment3 fragment3 = new src.Fragments.Fragment3();
-                        //transcation3.Replace(Resource.Id.container, fragment3);
-                        //transcation3.Commit();
-                        //Toast.MakeText(Application.Context, "Shop selected", ToastLength.Long).Show();
+                        String shareBody = "Download Masafi app and start shopping. https://play.google.com/store/apps/details?id=com.bits.masafi.consumer";
+                        Intent sharingIntent = new Intent(Intent.ActionSend);
+                        sharingIntent.SetType("text/plain");
+                        sharingIntent.PutExtra(Intent.ExtraSubject, "MASAFI APP");
+                        sharingIntent.PutExtra(Intent.ExtraText, shareBody);
+                        StartActivity(Intent.CreateChooser(sharingIntent, "Send To"));
 
                         break;
                    
 
                     case Resource.Id.terms:
-                        //drawerLayout.CloseDrawers();
-                        //FragmentTransaction transcation3 = FragmentManager.BeginTransaction();
-                        //src.Fragments.Fragment3 fragment3 = new src.Fragments.Fragment3();
-                        //transcation3.Replace(Resource.Id.container, fragment3);
-                        //transcation3.Commit();
-                        Toast.MakeText(Application.Context, "Shop selected", ToastLength.Long).Show();
-
+                        drawerLayout.CloseDrawers();
+                        FragmentTransaction transcation5 = FragmentManager.BeginTransaction();
+                        src.Fragments.TermsFragment termsFragment = new src.Fragments.TermsFragment(this);
+                        transcation5.Replace(Resource.Id.container, termsFragment, "Terms");
+                        transcation5.AddToBackStack("Terms");
+                        transcation5.Commit();
+                      
                         break;
 
                     default:

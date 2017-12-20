@@ -48,7 +48,30 @@ namespace NavigationDrawerLayout.src.Fragments
             btnFacebook.StartAnimation(animation1);
             btnTwiter.StartAnimation(animation2);
             btnInstagram.StartAnimation(animation3);
+            btnFacebook.Click += (o, e) =>
+            {
 
+                FragmentManager.PopBackStackImmediate();
+                var uri = Android.Net.Uri.Parse("https://m.facebook.com/Masafi");
+                var intent = new Intent(Intent.ActionView, uri);
+                mainActivity.StartActivity(intent);
+            };
+            btnTwiter.Click += (o, e) =>
+            {
+
+                FragmentManager.PopBackStackImmediate();
+                var uri = Android.Net.Uri.Parse("https://mobile.twitter.com/masafico");
+                var intent = new Intent(Intent.ActionView, uri);
+                mainActivity.StartActivity(intent);
+            };
+            btnInstagram.Click += (o, e) =>
+            {
+
+                FragmentManager.PopBackStackImmediate();
+                var uri = Android.Net.Uri.Parse("https://www.instagram.com/masafi/");
+                var intent = new Intent(Intent.ActionView, uri);
+                mainActivity.StartActivity(intent);
+            };
             return view;
 
         }
