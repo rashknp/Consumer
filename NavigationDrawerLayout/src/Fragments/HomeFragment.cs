@@ -22,7 +22,8 @@ namespace NavigationDrawerLayout.src.Fragments
 
     public class HomeFragment : Fragment,IBackButtonListener
     {
-        TextView login, product_catalog, promotion, contact, bitcash, website;
+        TextView login, promotion, contact, bitcash, website;
+        LinearLayout Product_cataloguee;
         public static int[] mThumbIds = {
             Resource.Drawable.slide1,  Resource.Drawable.slide2,  Resource.Drawable.slide3,  Resource.Drawable.slide4, Resource.Drawable.slide5, Resource.Drawable.slide6,
             Resource.Drawable.slide8, Resource.Drawable.slide9};
@@ -64,7 +65,7 @@ namespace NavigationDrawerLayout.src.Fragments
             base.OnCreateView(inflater, container, savedInstanceState);
             var view = inflater.Inflate(Resource.Layout.fragment, container, false);
             login = view.FindViewById<TextView>(Resource.Id.Login);
-            product_catalog = view.FindViewById<TextView>(Resource.Id.Product_catalogue);
+            Product_cataloguee = view.FindViewById<LinearLayout>(Resource.Id.Product_cataloguee);
             promotion = view.FindViewById<TextView>(Resource.Id.Promotions);
             contact = view.FindViewById<TextView>(Resource.Id.Contact_us);
             bitcash = view.FindViewById<TextView>(Resource.Id.Bit_cash);
@@ -140,8 +141,10 @@ namespace NavigationDrawerLayout.src.Fragments
                 transcation1.Replace(Resource.Id.container, loginFragment, "Login");
                 transcation1.AddToBackStack("Login");
                 transcation1.Commit();
+
+                
             };
-            product_catalog.Click += (o, e) =>
+            Product_cataloguee.Click += (o, e) =>
             {
 
                 FragmentTransaction transcation1 = FragmentManager.BeginTransaction();

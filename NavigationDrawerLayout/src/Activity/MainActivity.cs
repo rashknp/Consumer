@@ -11,10 +11,11 @@ using V7Toolbar = Android.Support.V7.Widget.Toolbar;
 using Android.Support.Design.Widget;
 using SupportFragment = Android.Support.V4.App.Fragment;
 using NavigationDrawerLayout.src;
+using Android.Content.PM;
 
 namespace NavigationDrawerLayout
 {
-    [Activity(Label = "Consumer", Theme = "@style/Theme.DesignDemo", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Consumer", Theme = "@style/Theme.DesignDemo", MainLauncher = true, Icon = "@drawable/icon", ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : AppCompatActivity
     {
 

@@ -5,6 +5,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
@@ -14,7 +15,7 @@ using Felipecsl.GifImageViewLibrary;
 
 namespace NavigationDrawerLayout
 {
-    [Activity(Label = "Home")]
+    [Activity(Label = "Home", ScreenOrientation = ScreenOrientation.Portrait)]
     class Home :Activity, GifImageView.IOnFrameAvailableListener
     {
         GifImageView gifImageView;

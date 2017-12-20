@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/dashboardbg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/listbox"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/arrowleft"
+                android:id="@+id/leftArrow"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_height="300dp" />
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="240dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/arrowright"
+                android:layout_weight="1"
+                android:id="@+id/rightArrow"
+                android:layout_marginRight="5dp"
+                android:layout_height="300dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="Masafi flavoured water" />
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/addcard"
+                android:layout_gravity="end"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:layout_height="35dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Case" />
+            <EditText
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:id="@+id/etCase"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:textSize="13sp"
+                android:maxLength="4"
+                android:textColor="#000000"
+                android:text="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:text="AED" />
+            <TextView
+                android:id="@+id/tvTotalCase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#008000"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:text="0" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="#A9A9A9"
+            android:layout_marginBottom="5dp"
+            android:layout_height="2dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:text="Piece" />
+            <EditText
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:maxLength="4"
+                android:textSize="13sp"
+              android:inputType="numberDecimal"
+                android:id="@+id/etPeice"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:text="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:text="AED" />
+            <TextView
+                android:id="@+id/tvTotalPeice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#008000"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:text="0" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="#A9A9A9"
+            android:layout_marginBottom="5dp"
+            android:layout_height="2dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:textSize="13sp"
+                android:visibility="invisible"
+                android:textColor="#000000"
+                android:layout_weight="1"
+                android:text="Piece" />
+            <EditText
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:visibility="invisible"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:layout_weight="1"
+                android:text="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:text="AED" />
+            <TextView
+                android:id="@+id/tvTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#008000"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
