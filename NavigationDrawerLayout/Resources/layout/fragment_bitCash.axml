@@ -5,17 +5,14 @@
     android:layout_height="match_parent"
        android:background="@drawable/dashboardbg"
                android:layout_marginTop="50dp">
-  <ImageView
-   
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-       android:src="@drawable/listbox">
+  
     <WebView
+       android:background="@drawable/listbox"
               android:layout_margin="@dimen/size5"
            android:padding="12dp"
       android:layout_width="fill_parent"
       android:layout_height="fill_parent"
       android:id="@+id/LocalWebView">
     </WebView>
-  </ImageView>
+  
 </LinearLayout>

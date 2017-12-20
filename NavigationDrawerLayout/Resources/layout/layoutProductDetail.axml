@@ -127,7 +127,7 @@
                 android:layout_marginRight="20dp"
                 android:maxLength="4"
                 android:textSize="13sp"
-              android:inputType="numberDecimal"
+                android:inputType="numberDecimal"
                 android:id="@+id/etPeice"
                 android:layout_weight="1"
                 android:textColor="#000000"
