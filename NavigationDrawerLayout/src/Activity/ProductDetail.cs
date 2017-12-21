@@ -20,10 +20,12 @@ namespace NavigationDrawerLayout
     public class ProductDetail : Activity, ViewPager.IOnPageChangeListener
     {
         private ViewPager mCardsViewPager;
-        private ImageView left, right;
+        private ImageView left, right, grid,list;
         private EditText etCase, etPeice;
         private TextView tvTotal, tvTotalCase, tvTotalPeice;
         private FrameLayout list_container, grid_container;
+        FragmentTransaction transcation;
+        src.Fragments.ProductDetailListFragment listFragment;
         private Bitmap GetImageBitmapFromUrl(string url)
         {
             Bitmap imageBitmap = null;
@@ -58,7 +60,31 @@ namespace NavigationDrawerLayout
 
             SetContentView(Resource.Layout.layoutProductDetail);
 
-           
+
+            list_container = FindViewById<FrameLayout>(Resource.Id.list_container);
+            grid_container = FindViewById<FrameLayout>(Resource.Id.grid_container);
+            grid = FindViewById<ImageView>(Resource.Id.grid);
+            list = FindViewById<ImageView>(Resource.Id.list);
+
+            list.Click += (sender, e) =>
+            {
+                grid_container.Visibility = Android.Views.ViewStates.Invisible;
+                transcation = FragmentManager.BeginTransaction();
+                listFragment = new src.Fragments.ProductDetailListFragment();
+                transcation.Add(Resource.Id.list_container, listFragment);
+                transcation.Commit();
+             
+            };
+
+            grid.Click += (sender, e) =>
+            {
+                grid_container.Visibility = Android.Views.ViewStates.Visible;
+
+                var fragment = this.FragmentManager.FindFragmentById(Resource.Id.list_container);
+                if (fragment != null)
+                    transcation.Remove(fragment);
+
+            };
 
             left = FindViewById<ImageView>(Resource.Id.leftArrow);
             right = FindViewById<ImageView>(Resource.Id.rightArrow);
@@ -71,6 +97,11 @@ namespace NavigationDrawerLayout
             mCardsViewPager.Adapter = new CardsPagerAdapter(this.FragmentManager);
 
             mCardsViewPager.SetPageTransformer(true, new FadeTransformer());
+
+
+
+
+           
 
             etCase.TextChanged += (object sender, Android.Text.TextChangedEventArgs e) => {
                 if (e.Text.ToString().Equals(""))

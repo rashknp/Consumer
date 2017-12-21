@@ -2746,8 +2746,8 @@ namespace NavigationDrawerLayout
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0600c2
-			public const int AutoCompleteInput = 2131099842;
+			// aapt resource value: 0x7f0600c6
+			public const int AutoCompleteInput = 2131099846;
 			
 			// aapt resource value: 0x7f060093
 			public const int Bit_cash = 2131099795;
@@ -2773,8 +2773,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060094
 			public const int Website = 2131099796;
 			
-			// aapt resource value: 0x7f0600b2
-			public const int action0 = 2131099826;
+			// aapt resource value: 0x7f0600b6
+			public const int action0 = 2131099830;
 			
 			// aapt resource value: 0x7f060066
 			public const int action_bar = 2131099750;
@@ -2800,8 +2800,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060067
 			public const int action_context_bar = 2131099751;
 			
-			// aapt resource value: 0x7f0600b6
-			public const int action_divider = 2131099830;
+			// aapt resource value: 0x7f0600ba
+			public const int action_divider = 2131099834;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -2827,8 +2827,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06001d
 			public const int always = 2131099677;
 			
-			// aapt resource value: 0x7f0600c0
-			public const int appbar = 2131099840;
+			// aapt resource value: 0x7f0600c4
+			public const int appbar = 2131099844;
 			
 			// aapt resource value: 0x7f060041
 			public const int automatic = 2131099713;
@@ -2836,8 +2836,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06001a
 			public const int beginning = 2131099674;
 			
-			// aapt resource value: 0x7f0600c9
-			public const int bit_cash = 2131099849;
+			// aapt resource value: 0x7f0600cd
+			public const int bit_cash = 2131099853;
 			
 			// aapt resource value: 0x7f06002a
 			public const int bottom = 2131099690;
@@ -2875,11 +2875,11 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060075
 			public const int buttonScanDefaultView = 2131099765;
 			
-			// aapt resource value: 0x7f0600c6
-			public const int buttonZxingFlash = 2131099846;
+			// aapt resource value: 0x7f0600ca
+			public const int buttonZxingFlash = 2131099850;
 			
-			// aapt resource value: 0x7f0600b3
-			public const int cancel_action = 2131099827;
+			// aapt resource value: 0x7f0600b7
+			public const int cancel_action = 2131099831;
 			
 			// aapt resource value: 0x7f06007e
 			public const int cancel_button = 2131099774;
@@ -2896,8 +2896,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06005e
 			public const int checkbox = 2131099742;
 			
-			// aapt resource value: 0x7f0600b9
-			public const int chronometer = 2131099833;
+			// aapt resource value: 0x7f0600bd
+			public const int chronometer = 2131099837;
 			
 			// aapt resource value: 0x7f060033
 			public const int clip_horizontal = 2131099699;
@@ -2935,14 +2935,14 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06007b
 			public const int confirmation_code = 2131099771;
 			
-			// aapt resource value: 0x7f0600cc
-			public const int contact_us = 2131099852;
+			// aapt resource value: 0x7f0600d0
+			public const int contact_us = 2131099856;
 			
-			// aapt resource value: 0x7f0600ae
-			public const int container = 2131099822;
+			// aapt resource value: 0x7f0600b2
+			public const int container = 2131099826;
 			
-			// aapt resource value: 0x7f0600c7
-			public const int contentFrame = 2131099847;
+			// aapt resource value: 0x7f0600cb
+			public const int contentFrame = 2131099851;
 			
 			// aapt resource value: 0x7f060056
 			public const int contentPanel = 2131099734;
@@ -2977,8 +2977,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060042
 			public const int display_always = 2131099714;
 			
-			// aapt resource value: 0x7f0600ad
-			public const int drawer_layout = 2131099821;
+			// aapt resource value: 0x7f0600b1
+			public const int drawer_layout = 2131099825;
 			
 			// aapt resource value: 0x7f060068
 			public const int edit_query = 2131099752;
@@ -2986,8 +2986,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06001b
 			public const int end = 2131099675;
 			
-			// aapt resource value: 0x7f0600bd
-			public const int end_padder = 2131099837;
+			// aapt resource value: 0x7f0600c1
+			public const int end_padder = 2131099841;
 			
 			// aapt resource value: 0x7f060023
 			public const int enterAlways = 2131099683;
@@ -2995,14 +2995,14 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060024
 			public const int enterAlwaysCollapsed = 2131099684;
 			
-			// aapt resource value: 0x7f0600a7
-			public const int etCase = 2131099815;
+			// aapt resource value: 0x7f0600ab
+			public const int etCase = 2131099819;
 			
 			// aapt resource value: 0x7f060099
 			public const int etPassword = 2131099801;
 			
-			// aapt resource value: 0x7f0600a9
-			public const int etPeice = 2131099817;
+			// aapt resource value: 0x7f0600ad
+			public const int etPeice = 2131099821;
 			
 			// aapt resource value: 0x7f060098
 			public const int etUsername = 2131099800;
@@ -3037,6 +3037,12 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f0600a3
 			public const int gifImageView = 2131099811;
 			
+			// aapt resource value: 0x7f0600a4
+			public const int grid = 2131099812;
+			
+			// aapt resource value: 0x7f0600a7
+			public const int grid_container = 2131099815;
+			
 			// aapt resource value: 0x7f060005
 			public const int home = 2131099653;
 			
@@ -3055,8 +3061,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060085
 			public const int imageview_card = 2131099781;
 			
-			// aapt resource value: 0x7f0600bc
-			public const int info = 2131099836;
+			// aapt resource value: 0x7f0600c0
+			public const int info = 2131099840;
 			
 			// aapt resource value: 0x7f060040
 			public const int inline = 2131099712;
@@ -3073,23 +3079,29 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06002f
 			public const int left = 2131099695;
 			
-			// aapt resource value: 0x7f0600a4
-			public const int leftArrow = 2131099812;
-			
-			// aapt resource value: 0x7f0600b7
-			public const int line1 = 2131099831;
+			// aapt resource value: 0x7f0600a8
+			public const int leftArrow = 2131099816;
 			
 			// aapt resource value: 0x7f0600bb
-			public const int line3 = 2131099835;
+			public const int line1 = 2131099835;
 			
-			// aapt resource value: 0x7f0600c3
-			public const int linearLayout1 = 2131099843;
+			// aapt resource value: 0x7f0600bf
+			public const int line3 = 2131099839;
 			
-			// aapt resource value: 0x7f0600c4
-			public const int linearLayout2 = 2131099844;
+			// aapt resource value: 0x7f0600c7
+			public const int linearLayout1 = 2131099847;
+			
+			// aapt resource value: 0x7f0600c8
+			public const int linearLayout2 = 2131099848;
+			
+			// aapt resource value: 0x7f0600a5
+			public const int list = 2131099813;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
+			
+			// aapt resource value: 0x7f0600a6
+			public const int list_container = 2131099814;
 			
 			// aapt resource value: 0x7f06004d
 			public const int list_item = 2131099725;
@@ -3097,14 +3109,14 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06009a
 			public const int login = 2131099802;
 			
-			// aapt resource value: 0x7f0600bf
-			public const int main_content = 2131099839;
+			// aapt resource value: 0x7f0600c3
+			public const int main_content = 2131099843;
 			
-			// aapt resource value: 0x7f0600b5
-			public const int media_actions = 2131099829;
+			// aapt resource value: 0x7f0600b9
+			public const int media_actions = 2131099833;
 			
-			// aapt resource value: 0x7f0600b0
-			public const int messenger_send_button = 2131099824;
+			// aapt resource value: 0x7f0600b4
+			public const int messenger_send_button = 2131099828;
 			
 			// aapt resource value: 0x7f06001c
 			public const int middle = 2131099676;
@@ -3115,11 +3127,11 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060015
 			public const int multiply = 2131099669;
 			
-			// aapt resource value: 0x7f0600af
-			public const int nav_view = 2131099823;
+			// aapt resource value: 0x7f0600b3
+			public const int nav_view = 2131099827;
 			
-			// aapt resource value: 0x7f0600b1
-			public const int navheader_username = 2131099825;
+			// aapt resource value: 0x7f0600b5
+			public const int navheader_username = 2131099829;
 			
 			// aapt resource value: 0x7f060088
 			public const int navigation_header_container = 2131099784;
@@ -3142,8 +3154,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06003b
 			public const int page = 2131099707;
 			
-			// aapt resource value: 0x7f0600a5
-			public const int pager = 2131099813;
+			// aapt resource value: 0x7f0600a9
+			public const int pager = 2131099817;
 			
 			// aapt resource value: 0x7f060028
 			public const int parallax = 2131099688;
@@ -3154,8 +3166,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060029
 			public const int pin = 2131099689;
 			
-			// aapt resource value: 0x7f0600c8
-			public const int product_catalogue = 2131099848;
+			// aapt resource value: 0x7f0600cc
+			public const int product_catalogue = 2131099852;
 			
 			// aapt resource value: 0x7f06007c
 			public const int progress_bar = 2131099772;
@@ -3169,14 +3181,14 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060060
 			public const int radio = 2131099744;
 			
-			// aapt resource value: 0x7f0600be
-			public const int recyclerView = 2131099838;
+			// aapt resource value: 0x7f0600c2
+			public const int recyclerView = 2131099842;
 			
 			// aapt resource value: 0x7f060030
 			public const int right = 2131099696;
 			
-			// aapt resource value: 0x7f0600a6
-			public const int rightArrow = 2131099814;
+			// aapt resource value: 0x7f0600aa
+			public const int rightArrow = 2131099818;
 			
 			// aapt resource value: 0x7f060016
 			public const int screen = 2131099670;
@@ -3253,8 +3265,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060027
 			public const int snap = 2131099687;
 			
-			// aapt resource value: 0x7f0600ca
-			public const int social_media = 2131099850;
+			// aapt resource value: 0x7f0600ce
+			public const int social_media = 2131099854;
 			
 			// aapt resource value: 0x7f060051
 			public const int spacer = 2131099729;
@@ -3277,8 +3289,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060031
 			public const int start = 2131099697;
 			
-			// aapt resource value: 0x7f0600b4
-			public const int status_bar_latest_event_content = 2131099828;
+			// aapt resource value: 0x7f0600b8
+			public const int status_bar_latest_event_content = 2131099832;
 			
 			// aapt resource value: 0x7f060071
 			public const int submit_area = 2131099761;
@@ -3286,17 +3298,17 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f06000d
 			public const int tabMode = 2131099661;
 			
-			// aapt resource value: 0x7f0600cb
-			public const int tell_friend = 2131099851;
+			// aapt resource value: 0x7f0600cf
+			public const int tell_friend = 2131099855;
 			
-			// aapt resource value: 0x7f0600cd
-			public const int terms = 2131099853;
+			// aapt resource value: 0x7f0600d1
+			public const int terms = 2131099857;
 			
 			// aapt resource value: 0x7f0600a2
 			public const int text = 2131099810;
 			
-			// aapt resource value: 0x7f0600ba
-			public const int text2 = 2131099834;
+			// aapt resource value: 0x7f0600be
+			public const int text2 = 2131099838;
 			
 			// aapt resource value: 0x7f060059
 			public const int textSpacerNoButtons = 2131099737;
@@ -3307,11 +3319,11 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f0600a1
 			public const int textView2 = 2131099809;
 			
-			// aapt resource value: 0x7f0600c5
-			public const int textView3 = 2131099845;
+			// aapt resource value: 0x7f0600c9
+			public const int textView3 = 2131099849;
 			
-			// aapt resource value: 0x7f0600b8
-			public const int time = 2131099832;
+			// aapt resource value: 0x7f0600bc
+			public const int time = 2131099836;
 			
 			// aapt resource value: 0x7f06004f
 			public const int title = 2131099727;
@@ -3319,8 +3331,8 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060054
 			public const int title_template = 2131099732;
 			
-			// aapt resource value: 0x7f0600c1
-			public const int toolbar = 2131099841;
+			// aapt resource value: 0x7f0600c5
+			public const int toolbar = 2131099845;
 			
 			// aapt resource value: 0x7f060032
 			public const int top = 2131099698;
@@ -3334,17 +3346,17 @@ namespace NavigationDrawerLayout
 			// aapt resource value: 0x7f060096
 			public const int tvEmail = 2131099798;
 			
-			// aapt resource value: 0x7f0600ab
-			public const int tvTotal = 2131099819;
-			
-			// aapt resource value: 0x7f0600a8
-			public const int tvTotalCase = 2131099816;
-			
-			// aapt resource value: 0x7f0600aa
-			public const int tvTotalPeice = 2131099818;
+			// aapt resource value: 0x7f0600af
+			public const int tvTotal = 2131099823;
 			
 			// aapt resource value: 0x7f0600ac
-			public const int type = 2131099820;
+			public const int tvTotalCase = 2131099820;
+			
+			// aapt resource value: 0x7f0600ae
+			public const int tvTotalPeice = 2131099822;
+			
+			// aapt resource value: 0x7f0600b0
+			public const int type = 2131099824;
 			
 			// aapt resource value: 0x7f06003c
 			public const int unknown = 2131099708;

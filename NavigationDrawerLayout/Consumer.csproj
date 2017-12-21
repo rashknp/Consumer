@@ -141,6 +141,7 @@
     <Compile Include="src\Activity\ProductDetail.cs" />
     <Compile Include="src\Activity\ProductListAdapter.cs" />
     <Compile Include="src\Fragments\PagerFragment.cs" />
+    <Compile Include="src\Fragments\ProductDetailListFragment.cs" />
     <Compile Include="src\Fragments\SocialMediaFragment.cs" />
     <Compile Include="src\Fragments\ProductCatalogFragment.cs" />
     <Compile Include="src\Fragments\PromotionFragment.cs" />
