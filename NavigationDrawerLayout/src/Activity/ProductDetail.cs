@@ -58,7 +58,7 @@ namespace NavigationDrawerLayout
 
             SetContentView(Resource.Layout.layoutProductDetail);
 
-            list_container
+           
 
             left = FindViewById<ImageView>(Resource.Id.leftArrow);
             right = FindViewById<ImageView>(Resource.Id.rightArrow);
