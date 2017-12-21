@@ -30,7 +30,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_margin="20dp"
-                android:background="@drawable/loginbgone"
+                android:background="@drawable/carticash"
                 android:layout_height="300dp">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -46,7 +46,7 @@
                         android:textSize="15sp"
                         android:textColor="#362618"
                         android:singleLine="true"
-                        android:drawableLeft="@drawable/loginicon"
+                        android:drawableLeft="@drawable/carticash"
                         android:layout_height="wrap_content" />
                     <EditText
                         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                         android:layout_marginRight="5dp"
                         android:singleLine="true"
                         android:padding="5dp"
-                        android:drawableLeft="@drawable/password"
+                        android:drawableLeft="@drawable/carticash"
                         android:id="@+id/etPassword"
                         android:layout_height="wrap_content" />
                     <Button

@@ -3,19 +3,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-              android:background="#fff">
+    android:background="#fff">
     <TextView
-      android:gravity="center"
-       android:id="@+id/text"
-      android:layout_gravity="center"
-      android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:layout_gravity="center"
+        android:textColor="#000"
         android:text="Home Screen"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-  <com.felipecsl.gifimageview.library.GifImageView
-    android:id="@+id/gifImageView"
-    android:layout_gravity="center"
-    android:scaleType="fitCenter"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

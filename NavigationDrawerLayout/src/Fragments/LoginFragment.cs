@@ -41,8 +41,8 @@ namespace NavigationDrawerLayout.src.Fragments
             facebookLogin.Click += (sender, e) =>
               {
 
-                  var intent = new Intent(this.Activity, typeof(FacebookActivity));
-                   StartActivity(intent);
+                  //var intent = new Intent(this.Activity, typeof(FacebookActivity));
+                  // StartActivity(intent);
 
 
               };

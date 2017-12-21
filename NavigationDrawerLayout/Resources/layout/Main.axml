@@ -21,7 +21,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <android.support.design.widget.NavigationView
-          
             app:itemTextColor="@color/white"
             app:itemIconTint="@color/white"
             android:background="@drawable/drawerbg"
